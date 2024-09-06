@@ -1,0 +1,74 @@
+body {
+  background: grey no-repeat center center fixed;
+  background-size: cover;
+  font-family: "Comic Sans MS", sans-serif;
+  color: white;
+}
+
+.game-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.score-box {
+  margin-bottom: 20px;
+}
+
+.clicker-box {
+  margin: 20px;
+}
+
+.click-button {
+  padding: 40px;
+  font-size: 24px;
+  border-radius: 50%;
+  background-color: #ff9800;
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: transform 0.1s ease-in-out;
+}
+
+.click-button:active {
+  transform: scale(0.95);
+}
+
+.upgrades-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.upgrade-box {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px;
+  width: 150px;
+}
+
+.upgrade-button {
+  padding: 10px;
+  font-size: 14px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.upgrade-button-disabled {
+  /* cursor: not-allowed; */
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  background-color: grey;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.upgrade-button:hover {
+  background-color: #45a049;
+}
